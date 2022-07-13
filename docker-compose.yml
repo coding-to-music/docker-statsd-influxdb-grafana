@@ -1,4 +1,4 @@
-version: "3.9"
+version: "3.7"
 
 volumes:
   influxdb_data: {}
@@ -35,7 +35,7 @@ services:
   telegraf:
     container_name: dsig-telegraf
     image: telegraf:${TELEGRAF_VERSION}
-    profiles: ["telegraf"]
+    # profiles: ["telegraf"]
     networks:
       - influx
     ports:
@@ -51,7 +51,7 @@ services:
   postgres:
     container_name: dsig-postgres
     image: bitnami/postgresql:${POSTGRES_VERSION}
-    profiles: ["grafana"]
+    # profiles: ["grafana"]
     networks:
       - postgres
     restart: always
@@ -63,7 +63,7 @@ services:
   grafana:
     container_name: dsig-grafana
     image: grafana/grafana-enterprise:${GRAFANA_VERSION}
-    profiles: ["grafana"]
+    # profiles: ["grafana"]
     networks:
       - postgres
       - influx

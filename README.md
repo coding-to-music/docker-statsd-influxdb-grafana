@@ -1,3 +1,35 @@
+# docker-statsd-influxdb-grafana
+
+# 🚀 Docker service with Telegraf (StatsD), InfluxDB and Grafana 🚀
+
+https://github.com/coding-to-music/docker-statsd-influxdb-grafana
+
+From / By Samuele Bistoletti https://github.com/samuelebistoletti
+
+https://github.com/samuelebistoletti/docker-statsd-influxdb-grafana
+
+Example of a Grafana dashboard:
+
+![Grafana screenshot](https://github.com/coding-to-music/grafana-prometheus-node-js-example/blob/main/images/example-dashboard.png?raw=true)
+
+## Environment variables:
+
+```java
+
+```
+
+## GitHub
+
+```java
+git init
+git add .
+git remote remove origin
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:coding-to-music/docker-statsd-influxdb-grafana.git
+git push -u origin main
+```
+
 # Docker service with Telegraf (StatsD), InfluxDB and Grafana
 
 :facepunch: Battle-tested
