@@ -8,6 +8,8 @@ From / By Samuele Bistoletti https://github.com/samuelebistoletti
 
 https://github.com/samuelebistoletti/docker-statsd-influxdb-grafana
 
+Lots of good content here:
+
 https://devconnected.com/how-to-install-influxdb-telegraf-and-grafana-on-docker/
 
 Example of a Grafana dashboard:
