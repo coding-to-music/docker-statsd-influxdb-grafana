@@ -8,6 +8,8 @@ From / By Samuele Bistoletti https://github.com/samuelebistoletti
 
 https://github.com/samuelebistoletti/docker-statsd-influxdb-grafana
 
+https://devconnected.com/how-to-install-influxdb-telegraf-and-grafana-on-docker/
+
 Example of a Grafana dashboard:
 
 ![Grafana screenshot](https://github.com/coding-to-music/grafana-prometheus-node-js-example/blob/main/images/example-dashboard.png?raw=true)
@@ -40,12 +42,11 @@ git push -u origin main
 
 ### Warning: UPGRADE FROM OLDER VERSIONS TO VERSION 3.0.0 IS NOT POSSIBLE, SEE CHANGELOG.MD
 
-* Main version:      3.0.0
-* InfluxDB:          2.1.1
-* Telegraf (StatsD): 1.21
-* Postgres:          14.2.0
-* Grafana:           8.4.4
-
+- Main version: 3.0.0
+- InfluxDB: 2.1.1
+- Telegraf (StatsD): 1.21
+- Postgres: 14.2.0
+- Grafana: 8.4.4
 
 ## Quick Start
 
